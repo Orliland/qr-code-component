@@ -30,7 +30,13 @@ body {
 .card {
   grid-row: 1 / 2;
   grid-column: 1 / 2;
-  align-self: center;
+  place-self: center;
+
+  width: 100%;
+  max-width: 32rem;
+  padding: 1.6rem;
+  background-color: var(--white);
+  border-radius: 2.4rem;
 }
 
 .card__img {

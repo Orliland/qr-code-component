@@ -13,3 +13,12 @@
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
 }
+
+body {
+  display: grid;
+  place-content: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  background-color: var(--grayish-blue);
+}
